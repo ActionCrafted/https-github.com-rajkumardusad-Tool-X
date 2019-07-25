@@ -1,6 +1,6 @@
 # instahack {
-    $toolinstall  ( https://github.com/avramit/instahack.git );
+    $toolinstall  ( https://github.com/mark0909099/instahack.git );
     $scriptname ( hackinsta.py );
-    $toollang ( python );
+    $toollang ( python3 );
     $req ( py );
 }
