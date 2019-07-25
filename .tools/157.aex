@@ -1,6 +1,6 @@
-# pyPISHER {
-    $toolinstall  ( https://github.com/Renato-Silva/pyPISHER.git );
-    $scriptname ( pyPISHER.py );
-    $toollang ( python2 );
+# DKMC {
+    $toolinstall  ( https://github.com/Mr-Un1k0d3r/DKMC.git );
+    $scriptname ( dkmc.py );
+    $toollang ( python );
     $req ( py );
 }
