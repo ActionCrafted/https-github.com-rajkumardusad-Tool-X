@@ -1,5 +1,5 @@
 # Devploit {
-    $toolinstall  ( https://github.com/joker25000/Devploit.git );
+    $toolinstall  ( https://github.com/GhettoCole/Devploit.git );
     $scriptname ( install );
     $toollang ( sh );
     $req ( py );
