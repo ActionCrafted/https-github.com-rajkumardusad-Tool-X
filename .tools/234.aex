@@ -1,5 +1,5 @@
 # wifigod {
-    $toolinstall ( https://github.com/blackholesec/wifigod.git );
+    $toolinstall ( https://github.com/fortify24x7/wifigod.git );
     $scriptname ( wifigod.py );
     $toollang ( python );
     $req ( py );
