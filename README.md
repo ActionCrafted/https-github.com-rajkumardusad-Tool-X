@@ -22,7 +22,7 @@ Tool-X was developed for Termux and other android terminals. Using Tool-X, you c
 
 ------------------------------------------------------------------------
 
-### :cyclone: &nbsp; Operating System Requirements &nbsp; :cyclone:
+### Operating System Requirements
 
 Tool-X works on any of the following operating systems:<br>
 • **Android** (Using the Termux App) <br>
@@ -30,7 +30,7 @@ Tool-X works on any of the following operating systems:<br>
 
 ------------------------------------------------------------------------
 
-### :inbox_tray: &nbsp; How to Install &nbsp; :inbox_tray:
+### How to Install
 
 Open the terminal and type following commands.
 
@@ -48,7 +48,7 @@ Open the terminal and type following commands.
 
 ------------------------------------------------------------------------
 
-### :fire: &nbsp; How to Use &nbsp; :fire:
+### How to Use ?
 
 Enter a Number for a specific output:
 - (0) : To install all tools.
@@ -67,7 +67,7 @@ Type `Tool-X` or `toolx` from anywhere in your terminal to open Tool-X.
 
 ------------------------------------------------------------------------
 
-:warning: &nbsp; **Warning** &nbsp; :warning:
+**Warning**
 
 I am ***NOT*** expert, so use this tool at your own risk!
 
