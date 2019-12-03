@@ -1,6 +1,10 @@
 import os
 import sys
-import requests
+try:
+  import requests
+except:
+  os.system("pip install requests")
+  os.system("pip3 install requests")
 
 class sys:
   pac=None
