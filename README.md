@@ -11,11 +11,11 @@
 
 ### Introduction
 
-*Tool-X is a program installer for Kali Linux tools.*
-Tool-X was developed for Termux and other android terminals. Using Tool-X, you can install almost 263 hacking tools in Termux and other Linux based distributions. Now Tool-X is available for Ubuntu, Debian etc.
+*Tool-X is a Kali Linux hacking tools installer for Termux and linux system.*
+Tool-X was developed for Termux and other android terminals. Using Tool-X, you can install almost 370+ hacking tools in Termux (android) and other Linux based distributions. Now Tool-X is available for Ubuntu, Debian etc.
 
 <p align="center">
-<img height="500px" width="500px" src="https://github.com/Rajkumrdusad/Tool-X/blob/master/.sc/Logo.jpg"/>
+<img width="70%" src="https://github.com/Rajkumrdusad/Tool-X/blob/master/.sc/Logo.jpg"/>
 </p>
 
 ------------------------------------------------------------------------
@@ -23,8 +23,8 @@ Tool-X was developed for Termux and other android terminals. Using Tool-X, you c
 ### :cyclone: &nbsp; Operating System Requirements &nbsp; :cyclone:
 
 Tool-X works on any of the following operating systems:<br>
-• Android (Using the Termux App) <br>
-• Linux (Debian Based Systems) <br>
+• **Android** (Using the Termux App) <br>
+• **Linux** (Debian Based Systems) <br>
 
 ------------------------------------------------------------------------
 
@@ -59,9 +59,9 @@ Enter a Number for a specific output:
 
 <br/>
 
-***Now Tool-X is installed successfully. To run Tool-X Type Tool-X in your terminal.***
+***Now Tool-X is installed successfully. To run Tool-X Type `Tool-X` or `toolx` in your terminal.***
 
-Type Tool-X from anywhere in your terminal to open Tool-X.
+Type `Tool-X` or `toolx` from anywhere in your terminal to open Tool-X.
 
 ------------------------------------------------------------------------
 
