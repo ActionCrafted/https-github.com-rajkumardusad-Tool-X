@@ -1,6 +1,0 @@
-# WhatWeb {
-    $toolinstall ( https://github.com/urbanadventurer/WhatWeb.git );
-    $scriptname ( whatweb );
-    $toollang ( ./ );
-    $req ( ruby );
-}

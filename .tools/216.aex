@@ -1,6 +1,0 @@
-# reaver {
-    $toolinstall ( Null );
-    $scriptname ( reaver );
-    $toollang ( Null );
-    $req ( Null );
-}

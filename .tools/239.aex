@@ -1,6 +1,0 @@
-# Dracnmap {
-    $toolinstall ( https://github.com/Screetsec/Dracnmap.git );
-    $scriptname ( dracnmap.sh );
-    $toollang ( sh );
-    $req ( bash );
-}

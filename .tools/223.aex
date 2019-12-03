@@ -1,6 +1,0 @@
-# brutespray {
-    $toolinstall ( https://github.com/x90skysn3k/brutespray.git );
-    $scriptname ( brutespray.py );
-    $toollang ( python );
-    $req ( py );
-}

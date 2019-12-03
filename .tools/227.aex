@@ -1,6 +1,0 @@
-# 4nonimizer {
-    $toolinstall ( https://github.com/Hackplayers/4nonimizer.git );
-    $scriptname ( 4nonimizer );
-    $toollang ( ./ );
-    $req ( bash );
-}

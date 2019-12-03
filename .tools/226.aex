@@ -1,6 +1,0 @@
-# trojanizer {
-    $toolinstall ( https://github.com/r00t-3xp10it/trojanizer.git );
-    $scriptname ( Trojanizer.sh );
-    $toollang ( ./ );
-    $req ( bash );
-}

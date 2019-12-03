@@ -1,6 +1,0 @@
-# nodejs {
-    $toolinstall ( Null );
-    $scriptname ( nodejs );
-    $toollang ( Null );
-    $req ( Null );
-}

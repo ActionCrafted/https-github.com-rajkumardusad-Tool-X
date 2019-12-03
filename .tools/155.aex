@@ -1,6 +1,0 @@
-# Email-Spammer {
-    $toolinstall  ( https://github.com/Juniorn1003/Email-Spammer.git );
-    $scriptname ( install.sh );
-    $toollang ( sh );
-    $req ( py );
-}

@@ -1,6 +1,0 @@
-# EggShell {
-    $toolinstall ( https://github.com/neoneggplant/EggShell.git );
-    $scriptname ( eggshell.py );
-    $toollang ( python );
-    $req ( py );
-}

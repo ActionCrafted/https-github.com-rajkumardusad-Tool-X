@@ -1,6 +1,0 @@
-# Androspy {
-    $toolinstall ( https://github.com/TunisianEagles/Androspy.git );
-    $scriptname ( setup.sh );
-    $toollang ( ./ );
-    $req ( bash );
-}

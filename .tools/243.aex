@@ -1,6 +1,0 @@
-# catphish {
-    $toolinstall ( https://github.com/ring0lab/catphish.git );
-    $scriptname ( catphish.rb );
-    $toollang ( ruby );
-    $req ( rb );
-}

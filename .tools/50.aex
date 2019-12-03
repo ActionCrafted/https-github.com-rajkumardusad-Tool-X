@@ -1,6 +1,0 @@
-# sudo {
-    $toolinstall ( Null );
-    $scriptname ( sudo );
-    $toollang ( Null );
-    $req ( Null );
-}

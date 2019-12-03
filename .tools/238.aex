@@ -1,6 +1,0 @@
-# seeker {
-    $toolinstall ( https://github.com/thewhiteh4t/seeker.git );
-    $scriptname ( termux_install.sh );
-    $toollang ( sh );
-    $req ( py );
-}

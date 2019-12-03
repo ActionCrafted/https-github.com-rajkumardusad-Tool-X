@@ -1,6 +1,0 @@
-# fuckshitup {
-    $toolinstall ( https://github.com/Smaash/fuckshitup.git );
-    $scriptname ( fsu.php );
-    $toollang ( php );
-    $req ( php );
-}

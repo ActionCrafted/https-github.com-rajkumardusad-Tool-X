@@ -1,6 +1,0 @@
-# noisy {
-    $toolinstall ( https://github.com/1tayH/noisy.git );
-    $scriptname ( noisy.py );
-    $toollang ( python );
-    $req ( py );
-}

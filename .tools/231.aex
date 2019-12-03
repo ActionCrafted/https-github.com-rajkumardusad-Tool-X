@@ -1,6 +1,0 @@
-# roxysploit {
-    $toolinstall ( https://github.com/andyvaikunth/roxysploit.git );
-    $scriptname ( install );
-    $toollang ( bash );
-    $req ( py );
-}
