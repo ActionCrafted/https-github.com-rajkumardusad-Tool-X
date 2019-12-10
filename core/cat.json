@@ -12,5 +12,6 @@
   "ip_tracking" : "IP-Tracking tools",
   "programming_language" : "Programming Languages",
   "ddos" : "DDOS Attacks",
-  "web_server" : "Web Server's"
+  "web_server" : "Web Server's",
+  "termux_os" : "Termux OS"
 }
