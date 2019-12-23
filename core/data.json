@@ -2807,7 +2807,7 @@
     "package_manager" : "git",
     "dependency" : ["git"]
   },
-  "wifigod" : { 
+  "WifiGod" : { 
     "name" : "WifiGod",
     "package_name" : "WifiGod",
     "category" : ["wireless_testing"],
