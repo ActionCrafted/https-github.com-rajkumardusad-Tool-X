@@ -893,7 +893,7 @@
     "category" : ["termux_os"],
     "url" : "https://github.com/Hax4us/TermuxAlpine.git",
     "package_manager" : "git",
-    "dependency" : ["git"]
+    "dependency" : ["git","proot"]
   },
   "Th3inspector" : { 
     "name" : "Th3inspector",
@@ -1133,7 +1133,7 @@
     "category" : ["termux_os"],
     "url" : "https://raw.githubusercontent.com/sdrausty/TermuxArch/master/setupTermuxArch.sh",
     "package_manager" : "curl",
-    "dependency" : ["curl"]
+    "dependency" : ["curl","proot"]
   },
   "arp-scan" : { 
     "name" : "arp-scan",
@@ -2589,7 +2589,7 @@
     "category" : ["termux_os"],
     "url" : "https://github.com/nmilosev/termux-fedora.git",
     "package_manager" : "git",
-    "dependency" : ["git"]
+    "dependency" : ["git","proot"]
   },
   "termux-lazysqlmap" : { 
     "name" : "termux-lazysqlmap",
@@ -2605,7 +2605,7 @@
     "category" : ["termux_os"],
     "url" : "https://github.com/Neo-Oli/termux-ubuntu.git",
     "package_manager" : "git",
-    "dependency" : ["git"]
+    "dependency" : ["git","proot"]
   },
   "thc-ipv6" : { 
     "name" : "thc-ipv6",
@@ -2808,10 +2808,10 @@
     "dependency" : ["git"]
   },
   "wifigod" : { 
-    "name" : "wifigod",
-    "package_name" : "wifigod",
+    "name" : "WifiGod",
+    "package_name" : "WifiGod",
     "category" : ["wireless_testing"],
-    "url" : "https://github.com/blackholesec/wifigod.git",
+    "url" : "https://github.com/waseem-sajjad/WifiGod.git",
     "package_manager" : "git",
     "dependency" : ["python","git"]
   },
