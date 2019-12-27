@@ -311,6 +311,14 @@
     "package_manager" : "git",
     "dependency" : ["python","git"]
   },
+  "Email-Spammer" : { 
+    "name" : "Email-Spammer",
+    "package_name" : "Email-Spammer",
+    "category" : [null],
+    "url" : "https://github.com/Juniorn1003/Email-Spammer.git",
+    "package_manager" : "git",
+    "dependency" : ["python","git"]
+  },
   "Empire" : { 
     "name" : "Empire",
     "package_name" : "Empire",
@@ -420,14 +428,6 @@
     "package_name" : "Hash-Buster",
     "category" : ["password_attack"],
     "url" : "https://github.com/UltimateHackers/Hash-Buster.git",
-    "package_manager" : "git",
-    "dependency" : ["python","git"]
-  },
-  "Hashzer" : { 
-    "name" : "Hashzer",
-    "package_name" : "Hashzer",
-    "category" : ["password_attack"],
-    "url" : "https://github.com/Anb3rSecID/Hashzer.git",
     "package_manager" : "git",
     "dependency" : ["python","git"]
   },
