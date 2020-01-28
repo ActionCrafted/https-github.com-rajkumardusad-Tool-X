@@ -21,7 +21,10 @@ class tool:
         logo.installing()
         if system.sudo is not None:
           #require root permission
-          os.system(system.sudo+" mkdir "+system.conf_dir+"/Tool-X")
+          if os.path.exists(system.conf_dir+"/Tool-X"):
+            pass
+          else:
+            os.system(system.sudo+" mkdir "+system.conf_dir+"/Tool-X")
           os.system(system.sudo+" cp -r modules core Tool-X.py "+system.conf_dir+"/Tool-X")
           os.system(system.sudo+" cp -r core/Tool-X "+system.bin)
           os.system(system.sudo+" cp -r core/toolx "+system.bin)
@@ -39,7 +42,10 @@ class tool:
             tmp=input("\033[1;36m ##> \033[00m")
             break
         else:
-          os.system("mkdir "+system.conf_dir+"/Tool-X")
+          if os.path.exists(system.conf_dir+"/Tool-X"):
+            pass
+          else:
+            os.system("mkdir "+system.conf_dir+"/Tool-X")
           os.system("cp -r modules core Tool-X.py "+system.conf_dir+"/Tool-X")
           os.system("cp -r core/Tool-X "+system.bin)
           os.system("cp -r core/toolx "+system.bin)
