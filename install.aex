@@ -69,7 +69,8 @@ if [ -e  /usr/bin/apk ];then
      apk install python -y
      apk install python3 -y
    fi
-fiif [ -e  /usr/bin/apk ];then
+fi
+if [ -e  /usr/bin/apk ];then
   if [ ! -e /usr/bin/python3 ];then
      apk install python -y
      apk install python3 -y
