@@ -52,7 +52,7 @@ else
     fi
   fi
 fi
-if [ -e  /usr/lib/brew ];then
+if [ -e  /usr/bin/brew ];then
   if [ ! -e /usr/bin/python3 ];then
      brew install python -y
      brew install python3 -y
@@ -62,6 +62,17 @@ if [ -e  /usr/bin/brew ];then
   if [ ! -e /usr/bin/python ];then
      brew install python -y
      brew install python3 -y
+   fi
+fi
+if [ -e  /usr/bin/apk ];then
+  if [ ! -e /usr/bin/python ];then
+     apk install python -y
+     apk install python3 -y
+   fi
+fiif [ -e  /usr/bin/apk ];then
+  if [ ! -e /usr/bin/python3 ];then
+     apk install python -y
+     apk install python3 -y
    fi
 fi
 python3 install.py
