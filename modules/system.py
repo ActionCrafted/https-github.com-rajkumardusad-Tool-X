@@ -61,3 +61,11 @@ class sys:
       self.sys="linux"
       self.bin="/bin"
       self.pac="brew"
+    elif os.path.exists("/usr/bin/apk"):
+      self.sys="linux"
+      self.bin="/usr/bin"
+      self.pac="apk"
+    elif os.path.exists("/bin/apk"):
+      self.sys="linux"
+      self.bin="/bin"
+      self.pac="apk"
