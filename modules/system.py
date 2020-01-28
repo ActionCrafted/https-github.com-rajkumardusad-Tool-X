@@ -21,6 +21,7 @@ class sys:
     except:
       self.connection=False
 
+    # checking for system root access
     if os.path.exists("/usr/lib/sudo"):
       self.sudo="sudo"
     elif os.path.exists("/lib/sudo"):
@@ -29,7 +30,12 @@ class sys:
       self.sudo="sudo"
     elif os.path.exists("/bin/sudo"):
       self.sudo="sudo"
+    elif os.path.exists("/usr/sbin/sudo"):
+      self.sudo="sudo"
+    elif os.path.exists("/sbin/sudo"):
+      self.sudo="sudo"
 
+    # checking for configuration dir
     if os.path.exists("/usr/etc"):
       self.conf_dir="/usr/etc"
     elif os.path.exists("/data/data/com.termux/files/usr/etc"):
@@ -37,9 +43,22 @@ class sys:
     elif os.path.exists("/etc"):
       self.conf_dir="/etc"
 
+    # checking for system bin dir and system package manager
     if os.path.exists("/usr/bin/yum"):
       self.sys="linux"
       self.bin="/usr/bin"
+      self.pac="yum"
+    elif os.path.exists("/bin/yum"):
+      self.sys="linux"
+      self.bin="/bin"
+      self.pac="yum"
+    elif os.path.exists("/usr/sbin/yum"):
+      self.sys="linux"
+      self.bin="/usr/sbin"
+      self.pac="yum"
+    elif os.path.exists("/sbin/yum"):
+      self.sys="linux"
+      self.bin="/sbin"
       self.pac="yum"
     elif os.path.exists("/usr/bin/apt"):
       self.sys="linux"
@@ -48,6 +67,14 @@ class sys:
     elif os.path.exists("/bin/apt"):
       self.sys="linux"
       self.bin="/bin"
+      self.pac="apt-get"
+    elif os.path.exists("/usr/sbin/apt"):
+      self.sys="linux"
+      self.bin="/usr/sbin"
+      self.pac="apt-get"
+    elif os.path.exists("/sbin/apt"):
+      self.sys="linux"
+      self.bin="/sbin"
       self.pac="apt-get"
     elif os.path.exists("/data/data/com.termux/files/usr/bin/pkg"):
       self.sys="linux"
@@ -61,6 +88,14 @@ class sys:
       self.sys="linux"
       self.bin="/bin"
       self.pac="brew"
+    elif os.path.exists("/usr/sbin/brew"):
+      self.sys="linux"
+      self.bin="/usr/sbin"
+      self.pac="brew"
+    elif os.path.exists("/sbin/brew"):
+      self.sys="linux"
+      self.bin="/sbin"
+      self.pac="brew"
     elif os.path.exists("/usr/bin/apk"):
       self.sys="linux"
       self.bin="/usr/bin"
@@ -68,6 +103,10 @@ class sys:
     elif os.path.exists("/bin/apk"):
       self.sys="linux"
       self.bin="/bin"
+      self.pac="apk"
+    elif os.path.exists("/usr/sbin/apk"):
+      self.sys="linux"
+      self.bin="/usr/sbin"
       self.pac="apk"
     elif os.path.exists("/sbin/apk"):
       self.sys="linux"
