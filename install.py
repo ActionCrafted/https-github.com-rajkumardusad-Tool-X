@@ -19,7 +19,7 @@ class tool:
       if inp=="y" or inp=="Y":
         os.system("clear")
         logo.installing()
-        if system.sudo:
+        if system.sudo is not None:
           #require root permission
           os.system(system.sudo+" mkdir "+system.conf_dir+"/Tool-X")
           os.system(system.sudo+" cp -r modules core Tool-X.py "+system.conf_dir+"/Tool-X")
