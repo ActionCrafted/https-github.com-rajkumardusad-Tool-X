@@ -2,9 +2,9 @@
 
 # Tool-X v2.1
 
-[![Build Status](https://img.shields.io/github/forks/Rajkumrdusad/Tool-X.svg)](https://github.com/Rajkumrdusad/Tool-X)
-[![Build Status](https://img.shields.io/github/stars/Rajkumrdusad/Tool-X.svg)](https://github.com/Rajkumrdusad/Tool-X)
-[![License](https://img.shields.io/github/license/Rajkumrdusad/Tool-X.svg)](https://github.com/Rajkumrdusad/Tool-X)
+[![Build Status](https://img.shields.io/github/forks/rajkumardusad/Tool-X.svg)](https://github.com/rajkumardusad/Tool-X)
+[![Build Status](https://img.shields.io/github/stars/rajkumardusad/Tool-X.svg)](https://github.com/rajkumardusad/Tool-X)
+[![License](https://img.shields.io/github/license/rajkumardusad/Tool-X.svg)](https://github.com/rajkumardusad/Tool-X)
 [![Rawsec's CyberSecurity Inventory](https://inventory.rawsec.ml/img/badges/Rawsec-inventoried-FF5050_flat.svg)](https://inventory.rawsec.ml/tools.html#Tool-X)
 
 ------------------------------------------------------------------------
@@ -16,8 +16,8 @@ Tool-X was developed for Termux and other android terminals. Using Tool-X, you c
 
 <br>
 <p align="center">
-<img width="53%" src="https://github.com/Rajkumrdusad/Tool-X/blob/master/core/toolx.png"/>
-<img width="38%" src="https://github.com/Rajkumrdusad/Tool-X/blob/master/core/toolx_cat.png"/>
+<img width="53%" src="https://github.com/rajkumardusad/Tool-X/blob/master/core/toolx.png"/>
+<img width="38%" src="https://github.com/rajkumardusad/Tool-X/blob/master/core/toolx_cat.png"/>
 </p>
 
 ------------------------------------------------------------------------
