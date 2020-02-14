@@ -16,8 +16,8 @@ Tool-X was developed for Termux and other android terminals. Using Tool-X, you c
 
 <br>
 <p align="center">
-<img width="53%" src="https://github.com/rajkumardusad/Tool-X/blob/master/core/toolx.png"/>
-<img width="38%" src="https://github.com/rajkumardusad/Tool-X/blob/master/core/toolx_cat.png"/>
+<img width="53%" src="core/toolx.png"/>
+<img width="38%" src="core/toolx_cat.png"/>
 </p>
 
 ------------------------------------------------------------------------
