@@ -1,5 +1,3 @@
-
-
 # Tool-X
 
 [![Build Status](https://img.shields.io/github/forks/rajkumardusad/Tool-X.svg)](https://github.com/rajkumardusad/Tool-X)
@@ -69,5 +67,5 @@ Type `Tool-X` or `toolx` from anywhere in your terminal to open Tool-X.
 
 **Warning**
 
-I am ***NOT*** expert, so use this tool at your own risk!
+use this tool at your own risk!
 
