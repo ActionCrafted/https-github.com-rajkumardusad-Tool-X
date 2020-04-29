@@ -527,6 +527,14 @@
     "package_manager" : "git",
     "dependency" : ["clang","gcc","g++","git"]
   },
+  "JTRE" : { 
+    "name" : "JTRE",
+    "package_name" : "JTRE",
+    "category" : ["password_attack"],
+    "url" : "https://github.com/ASHWIN990/JTRE.git",
+    "package_manager" : "git",
+    "dependency" : ["john","python","git"]
+  },
   "KatanaFramework" : { 
     "name" : "KatanaFramework",
     "package_name" : "KatanaFramework",
