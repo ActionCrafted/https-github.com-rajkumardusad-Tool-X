@@ -533,7 +533,7 @@
     "category" : ["password_attack"],
     "url" : "https://github.com/ASHWIN990/JTRE.git",
     "package_manager" : "git",
-    "dependency" : ["john","python","git"]
+    "dependency" : ["python","git"]
   },
   "KatanaFramework" : { 
     "name" : "KatanaFramework",
