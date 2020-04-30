@@ -102,7 +102,7 @@ class main:
       cmd=input("\033[1;36m ##> \033[00m")
       if cmd=="1":
         system=sys()
-        if system.connection:
+        if system.connection():
           os.system("clear")
           logo.updating()
           if system.sudo != None:
@@ -168,7 +168,6 @@ class main:
   def menu(self):
     while True:
       tool=tools()
-      system=sys()
       total=len(tool.names)
       os.system("clear")
       logo.menu(total)
@@ -190,6 +189,7 @@ class main:
         logo.exit()
         break
       elif cmd=="rm -t" or cmd=="rm -T" or cmd=="uninstall tool-x" or cmd=="unistall Tool-X":
+        system=sys()
         if system.sudo:
           os.system(system.sudo+" rm -rf "+system.bin+"/Tool-X")
           os.system(system.sudo+" rm -rf "+system.bin+"/toolx")
@@ -226,7 +226,7 @@ class tools:
     req=list(self.data[name]["dependency"])
     system=sys()
 
-    if system.connection:
+    if system.connection():
       if len(req)!=0 and req[0]!=None:
         for dep in req:
           if os.path.exists(system.bin+"/"+dep):

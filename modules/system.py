@@ -12,14 +12,8 @@ class sys:
   home=os.getenv("HOME")
   bin=None
   sudo=None
-  connection=False
   conf_dir=None
   def __init__(self):
-    try:
-      if requests.get("https://www.google.com").ok:
-        self.connection=True
-    except:
-      self.connection=False
 
     # checking for system root access
     if os.path.exists("/usr/lib/sudo"):
@@ -112,3 +106,10 @@ class sys:
       self.sys="linux"
       self.bin="/sbin"
       self.pac="apk"
+
+  def connection(self):
+    try:
+      if requests.get("https://www.google.com").ok:
+        return True
+    except:
+      return False
