@@ -10,12 +10,13 @@
 ### Introduction
 
 *Tool-X is a Kali Linux hacking tools installer for Termux and linux system.*
-Tool-X was developed for Termux and other android terminals. Using Tool-X, you can install almost 370+ hacking tools in Termux (android) and other Linux based distributions. Now Tool-X is available for Ubuntu, Debian etc.
+Tool-X was developed for Termux and linux based systems. Using Tool-X, you can install almost 370+ hacking tools in Termux (android) and other Linux based distributions. Now Tool-X is available for Ubuntu, Debian etc.
 
 <br>
 <p align="center">
-<img width="53%" src="core/toolx.png"/>
-<img width="38%" src="core/toolx_cat.png"/>
+<img width="25%" src="core/toolx.png"/>
+<img width="37%" src="core/toolx_cat.png"/>
+<img width="30%" src="core/Screenshot_2020-05-17-20-17-56.png"/>
 </p>
 
 ------------------------------------------------------------------------
@@ -25,6 +26,7 @@ Tool-X was developed for Termux and other android terminals. Using Tool-X, you c
 Tool-X works on any of the following operating systems:<br>
 • **Android** (Using the Termux App) <br>
 • **Linux** (Debian Based Systems) <br>
+• **Unix**
 
 ------------------------------------------------------------------------
 
@@ -49,12 +51,10 @@ Open the terminal and type following commands.
 ### How to Use ?
 
 Enter a Number for a specific output:
-- (0) : To install all tools.
 - (1) : To show all available tools and type the number of a tool which you want to install.
 - (2) : To show tools category.
-- (3) : For the install of the operating system in Termux
-- (4) : If you want to update Tool-X.
-- (5) : If you want to know About Us.
+- (3) : If you want to update Tool-X.
+- (4) : If you want to know About Us.
 - (x) : To exit the tool.
 
 <br/>
