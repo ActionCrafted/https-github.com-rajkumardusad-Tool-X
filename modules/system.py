@@ -2,16 +2,15 @@ import os
 import sys
 try:
   import requests
-  from pathlib import Path
 
 except:
-  os.system("pip install requests pathlib")
-  os.system("pip3 install requests pathlib")
+  os.system("pip install requests")
+  os.system("pip3 install requests")
 
 class sys:
   pac=None
   sys=None
-  home=Path.home()
+  home=os.path.expanduser("~")
   bin=None
   sudo=None
   conf_dir=None
