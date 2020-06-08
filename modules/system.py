@@ -2,7 +2,6 @@ import os
 import sys
 try:
   import requests
-
 except:
   os.system("pip install requests")
   os.system("pip3 install requests")
