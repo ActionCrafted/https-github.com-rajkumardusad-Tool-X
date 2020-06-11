@@ -42,9 +42,9 @@ Open the terminal and type following commands.
 
 * `cd Tool-X`
 
-* `chmod +x install.aex`
+* `chmod +x install`
 
-* `sh install.aex` if not work than use `./install.aex`
+* `sh install` if not work than use `./install`
 
 ------------------------------------------------------------------------
 
