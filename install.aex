@@ -52,14 +52,14 @@ else
     fi
   fi
 fi
-if [ -e  /usr/bin/brew ];then
-  if [ ! -e /usr/bin/python3 ];then
+if [ -e  /usr/local/bin/brew ];then
+  if [ ! -e /usr/local/bin/python3 ];then
      brew install python -y
      brew install python3 -y
    fi
 fi
-if [ -e  /usr/bin/brew ];then
-  if [ ! -e /usr/bin/python ];then
+if [ -e  /usr/local/bin/brew ];then
+  if [ ! -e /usr/local/bin/python ];then
      brew install python -y
      brew install python3 -y
    fi
@@ -76,5 +76,6 @@ if [ -e  /usr/bin/apk ];then
      apk install python3 -y
    fi
 fi
+pip install -r requirements.txt
 python3 install.py
 exit
