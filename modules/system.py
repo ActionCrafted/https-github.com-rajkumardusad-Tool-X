@@ -74,22 +74,11 @@ class sys:
       self.sys="linux"
       self.bin="/data/data/com.termux/files/usr/bin"
       self.pac="pkg"
-    elif os.path.exists("/usr/bin/brew"):
+    elif os.path.exists("/usr/local/bin/brew"):
       self.sys="linux"
-      self.bin="/usr/bin"
+      self.bin="/usr/local/bin"
       self.pac="brew"
-    elif os.path.exists("/bin/brew"):
-      self.sys="linux"
-      self.bin="/bin"
-      self.pac="brew"
-    elif os.path.exists("/usr/sbin/brew"):
-      self.sys="linux"
-      self.bin="/usr/sbin"
-      self.pac="brew"
-    elif os.path.exists("/sbin/brew"):
-      self.sys="linux"
-      self.bin="/sbin"
-      self.pac="brew"
+      self.sudo=None
     elif os.path.exists("/usr/bin/apk"):
       self.sys="linux"
       self.bin="/usr/bin"
