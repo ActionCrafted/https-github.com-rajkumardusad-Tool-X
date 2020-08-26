@@ -2966,5 +2966,13 @@
     "url" : "https://github.com/pasahitz/zirikatu.git",
     "package_manager" : "git",
     "dependency" : ["git"]
+  },
+  "a-xex" : { 
+    "name" : "a-xex",
+    "package_name" : "a-xex",
+    "category" : ["web_hacking","exploitation_tools","information_gathering","vulnerability_scanner"],
+    "url" : "https://github.com/farinap5/A-xex.git",
+    "package_manager" : "git",
+    "dependency" : ["python","git"]
   }
 }
